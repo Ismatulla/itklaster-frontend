@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Imtihon</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <h1>INHA UNIVERSITY</h1>
+      <h2>RO'YHATDAN O'TISH UCHUN MA'LUMOTLARNI KIRITING</h2>
+    </nav>
+  </header>
+  <main>
+    <form action="https://inha.uz/">
+      <label for="ISM">ISM KIRITING:</label>
+      <input class="input_1" required type="text" placeholder="ISM" id="ISM" minlength="5" maxlength="15" />
+      <br />
+      <br />
+      <label for="FAMILYA">FAMILYA KIRITING:</label>
+      <input required type="text" placeholder="FAMILYA" id="FAMILYA" />
+
+      <br />
+      <br />
+      <label for="date">TUG'ILGAN SANA :</label>
+      <input class="input_3" required type="date" placeholder="" id="date" />
+      <br />
+      <br />
+      <label for="email">EMAIL KIRITING :</label>
+      <input class="input_4" required type="email" placeholder="email.com" id="email" minlength="5" maxlength="16" />
+      <br />
+      <br />
+      <label for="password">PAROL KIRITING :</label>
+      <input class="input_5" required type="password" placeholder="password" id="password" />
+      <br />
+      <br />
+
+      <label for="checkbox"> SHARTNOMA BILAN TANISHDINGIZMI !</label>
+      <input required type="checkbox" id="checkbox" />
+      <br />
+      <br />
+      <label for="Yo`nalishlar">YO'NALISH TANLANG:</label>
+      <select style="color: gray" name="Yo`nalishlar" id="Yo`nalishlar" required>
+        <option required value="">Muhandislik</option>
+        <option required value="">Informatika</option>
+        <option required value="">Arxitektur va dizayn</option>
+        <option required value="">Logistika</option>
+        <option required value="">Kompyuter va dasturiy</option>
+        <option required value="">Biznes boshqaruvi</option>
+      </select>
+      <br />
+      <br />
+      <label for="message">malumot:</label>
+      <textarea style="border-radius: 10px" id="message" name="message" rows="5" cols="40"
+        placeholder="MA'LUMOT UCHUN JOY" required></textarea><br />
+      <br />
+
+      <button type="submit">Junatish</button>
+    </form>
+  </main>
+</body>
+
+</html>

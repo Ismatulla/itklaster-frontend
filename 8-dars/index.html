@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selector turlari </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1 class="title">Selector turlari</h1>
+  </header>
+  <main>
+
+    <section>
+      <p>Element selector=> bu to'g'ridan to'g'ri elementni o'zi orqali textga still berish </p>
+
+      <p class="class_selector">Class Selector=> Elementga class attributi beriladi va shu klass orqali css filde dan
+        target qilinadi</p>
+
+      <p id="id_selector">Id Selector=> men id orqali target qilingan elementman</p>
+
+      <h5>Universal selector=> meni hech qanday class,id,yoki element nomi bilan target qilinmaganim uchun umumiy
+        selectorga apply qilingan stillni oldim </h5>
+
+    </section>
+
+    <!-- attribute orqali target qilish  -->
+    <section>
+
+      <input type="text" placeholder=" attribute orqalie target qilish" /> <br> <br>
+      <input type="number" placeholder=" attribute orqalie target qilish" />
+    </section>
+    <!-- descendent selectors -->
+    <section>
+      <div>
+        <article>
+          <p>div ichidagi ikinchi text men div orqali target qilinadim chunki meni div o'rab turipti </p>
+        </article>
+        <p>men div ichidagi birinchi turgan child bo;lganim uchun meni div orqali ">" belgisidan foydalanib target
+          qilishdi </p>
+      </div>
+    </section>
+
+    <!-- adjacent sibling selectors -->
+    <section>
+      <h2> men sibling selectors</h2>
+      <p>men adjacent sleector ichidagi IKKINCHI textman meni div o'rab turipti</p>
+      <span>men adjacent sleector ichidagi BIRINCHI textman meni div o'rab turipti</span>
+
+    </section>
+  </main>
+  <footer>
+    <p>Copyright &copy; 2022 Klaster</p>
+  </footer>
+</body>
+
+</html>

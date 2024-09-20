@@ -1,0 +1,41 @@
+/* Element selector */
+.title {
+  color: rgb(171, 171, 236);
+}
+* {
+  color: rgb(160, 160, 48);
+}
+p {
+  color: green;
+}
+
+/* class selector */
+.class_selector {
+  color: #1a73e8;
+}
+
+/* id selector */
+#id_selector {
+  color: red;
+}
+
+/* attribute orqali target qilish */
+input[type="text"] {
+  color: rgb(238, 162, 135);
+}
+input[type="number"] {
+  color: rgb(143, 238, 135);
+}
+
+div p {
+  color: saddlebrown;
+}
+div > p {
+  /* div ichidagi birinchi kelgan direct child ga style beradi */
+  color: rgb(170, 187, 134);
+}
+
+/* adjacent sibling selectors */
+h2 + p {
+  color: rgb(0, 255, 136);
+}
