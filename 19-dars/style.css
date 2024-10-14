@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  margin: 0;
+  width: 100%;
+}
+
+.trapezoid {
+  width: 53vw;
+  height: 100px;
+  background: #000;
+  clip-path: polygon(0 0%, 100% 0%, 90% 100%, 10% 100%);
+
+  transition: clip-path 0.3s ease-in-out, width 0.3s ease-in-out;
+  position: absolute;
+  left: 0;
+}
+
+.trapezoid:hover {
+  width: 70vw;
+}
+
+.trapezoid-upside {
+  width: 53vw;
+  height: 100px;
+  background: #f2f2;
+  clip-path: polygon(10% 100%, 100% 100%, 100% 0%, 0% 0%);
+
+  transition: clip-path 0.3s ease-in-out, width 0.3s ease-in-out;
+  position: absolute;
+  right: 0;
+}
+
+.trapezoid-upside:hover {
+  width: 70vw;
+}
