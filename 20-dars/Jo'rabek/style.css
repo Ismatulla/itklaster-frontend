@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 10px;
+}
+body {
+  max-width: 1920px;
+  margin: 0 auto;
+  font-family: Poppins, sans-serif;
+  height: 100vh;
+}
+.hero_container {
+  background-image: url("./imgs/bg-image.png");
+  max-height: 97.6rem;
+  height: 100%;
+}
+.hero_section {
+  max-width: 127.8rem;
+  margin: 0 auto;
+}
+.navbar {
+  padding-top: 6.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 5rem;
+  color: #fff;
+  font-size: 1.8rem;
+}
+.navbar li {
+  cursor: pointer;
+  position: relative;
+}
+.navbar li::after {
+  content: "";
+  position: absolute;
+  bottom: -0.5rem;
+  left: 0;
+  width: 0;
+  height: 0.3rem;
+  background: #df6951;
+  transition: all 0.5s ease;
+}
+.navbar li:hover::after {
+  width: 80%;
+}
+
+.btn {
+  padding: 1.8rem 2.6rem;
+  color: #fff;
+  font-size: 1.8rem;
+  border-radius: 10px;
+  background: #df6951;
+  border: none;
+  cursor: pointer;
+}
+
+select {
+  background: transparent;
+  border-radius: 10px;
+  font-size: 1.8rem;
+  border: none;
+  color: #fff;
+  outline: none;
+  font-family: inherit;
+}
+.hero_content {
+  margin-top: 16.7rem;
+  max-width: 84.4rem;
+}
+.hero_content h1 {
+  color: #fff;
+  font-size: 5.8rem;
+  font-weight: 700;
+  line-height: 1.16;
+  max-width: 63.1rem;
+}
+.hero_options {
+  border-radius: 5.22px;
+  padding: 2.3rem 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(35px);
+  background: rgba(243, 243, 243, 0.6);
+  margin-top: 4rem;
+}
+.hero_options div {
+  height: 4.8rem;
+  display: flex;
+  align-items: center;
+  padding: 0 5.1rem;
+}
+.hero_options div:nth-child(2) {
+  border-left: 3px solid #d0d0d0;
+  border-right: 3px solid #d0d0d0;
+}
+.hero_options span {
+  color: #fff;
+  font-size: 1.8rem;
+}
+.ppl {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: #fff;
+  margin-top: 2.8rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.image {
+  display: flex;
+  justify-content: space-between;
+  top: 976px;
+  margin: 50px;
+  padding-bottom: 50px;
+}
+.bulim_bir-div_bir {
+  text-align: center;
+  margin: 150px 0 90px;
+  line-height: 64px;
+}
+.bulim_bir-div_bir p {
+  color: #df6951;
+}
+.bulim_ikki {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  padding: 33px;
+  border-radius: 36px;
+  width: 260px;
+  height: 250px;
+  text-align: center;
+}
+
+.card:hover {
+  -webkit-box-shadow: 4px 4px 36px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 4px 36px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 4px 36px 0px rgba(34, 60, 80, 0.2);
+  transition: all 0.5s ease-in-out;
+}
+
+.card-p {
+ 
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  width: 195px;
+}
+
+.card-h1 {
+  margin-top: 42px;
+}
+.bulim_uch {
+  display: flex;
+  align-items: center;
+  gap: 166.6px;
+}
+.bulim_uch-p1 {
+  color: #df6951;
+}
+.bulim_uch-p2 {
+  width: 380px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  margin-top: 19px;
+}
+.bulim_uch-h1 {
+  font-family: Volkhov;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 71.04px;
+  text-align: left;
+  width: 583px;
+}
+.button {
+  margin-top: 31px;
+  border-radius: 10px;
+  background-color: #df6951;
+  border: none;
+}
+.button-p {
+  color: white;
+  font-family: Poppins;
+  font-size: 16.72px;
+  font-weight: 600;
+  line-height: 25.07px;
+  text-align: center;
+  padding: 10px;
+}
+
+.ota-kattabola {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.katta_bola {
+  display: flex;
+  gap: 21px;
+  align-items: flex-start;
+}
+
+.katta_p {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  color: #df6951;
+  margin-bottom: 15px;
+}
+
+.katta_h1 {
+  font-family: Volkhov;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 94.5px;
+  color: #181e4b;
+  margin-bottom: 31px;
+}
+
+.katta_bola-p {
+  width: 327px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.92px;
+  text-align: left;
+  color: #5e6282;
+  margin-bottom: 42px;
+  margin-top: 5px;
+}
+
+.text_h1 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.92px;
+  color: #5e6282;
+}
+
+.image_5-img {
+  max-width: 1920px;
+}

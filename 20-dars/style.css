@@ -1,0 +1,30 @@
+body {
+  height: 100vh;
+}
+.container {
+  max-width: 1920px;
+  margin-top: 3rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img_container {
+  position: relative;
+}
+.img1 {
+  border-radius: 250px 250px 0 0;
+}
+
+.img2 {
+  position: absolute;
+  top: -30px;
+  left: 150px;
+}
+.img3 {
+  position: absolute;
+  top: 50px;
+  left: -30px;
+  width: 150px;
+  height: 150px;
+}
