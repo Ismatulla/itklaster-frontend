@@ -1,210 +1,591 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
+  <body>
+    <main class="hero_container">
+      <section class="hero_section">
+        <header>
+          <nav class="navbar">
+            <img src="./imgs/logo.png" alt="logo" />
+            <ul>
+              <li>Home</li>
+              <li>About</li>
+              <li>
+                <select name="choice">
+                  <option value="first">Honeymoon Packages</option>
+                  <option value="second">Tours Packages</option>
+                  <option value="third">Musical Events</option>
+                  <option value="third">Build Package</option>
+                </select>
+              </li>
 
-<body>
-  <main class="hero_container">
-    <section class="hero_section">
-      <header>
-        <nav class="navbar">
-          <img src="./imgs/logo.png" alt="logo" />
-          <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>
-              <select name="choice">
-                <option value="first">Honeymoon Packages</option>
-                <option value="second">Tours Packages</option>
-                <option value="third">Musical Events</option>
-                <option value="third">Build Package</option>
-              </select>
-            </li>
-
-            <li>Upcoming Packages</li>
-          </ul>
-          <button class="btn">Get In Touch</button>
-        </nav>
-      </header>
-      <div class="hero_content">
-        <img src="./imgs/vector.png" alt="" />
-        <h1>No matter where you’re going to, we’ll take you there</h1>
-        <div class="hero_options">
-          <div><span>Where to?</span></div>
-          <div><span>Travel Type</span></div>
-          <div><span> Duration</span></div>
-          <button class="btn">Submit</button>
-        </div>
-      </div>
-      <div class="ppl">
-        <img src="./imgs/ppl.png" alt="ppl" />
-        <p>2,500 people booked Tommorowland Event in last 24 hours</p>
-      </div>
-    </section>
-    <!-- section offer -->
-    <div class="logos">
-      <img src="./imgs/logo1.png" alt="logo">
-      <img src="./imgs/logo1.png" alt="logo">
-      <img src="./imgs/logo1.png" alt="logo">
-      <img src="./imgs/logo1.png" alt="logo">
-      <img src="./imgs/logo1.png" alt="logo">
-    </div>
-    <div class="body_container">
-      <section class="offer">
-
-        <div class="offer_service">
-          <h5 class="subtitle">Category</h5>
-          <h2>We Offer Best Services</h2>
-          <div class="cards">
-            <div class="single_card">
-
-              <img src="./imgs/travelling.png" alt="travelling">
-              <h2 style="font-size: 2rem;">Best Flights Options</h2>
-              <p>sunt qui repellat saepe quo velit aperiam id aliquam placeat.</p>
-            </div>
-            <div class="single_card">
-
-              <img src="./imgs/travelling.png" alt="travelling">
-              <h2 style="font-size: 2rem;">Best Flights Options</h2>
-              <p>sunt qui repellat saepe quo velit aperiam id aliquam placeat.</p>
-            </div>
-            <div class="single_card">
-
-              <img src="./imgs/travelling.png" alt="travelling">
-              <h2 style="font-size: 2rem;">Best Flights Options</h2>
-              <p>sunt qui repellat saepe quo velit aperiam id aliquam placeat.</p>
-            </div>
-            <div class="single_card">
-
-              <img src="./imgs/travelling.png" alt="travelling">
-              <h2 style="font-size: 2rem;">Best Flights Options</h2>
-              <p>sunt qui repellat saepe quo velit aperiam id aliquam placeat.</p>
-            </div>
+              <li>Upcoming Packages</li>
+            </ul>
+            <button class="btn">Get In Touch</button>
+          </nav>
+        </header>
+        <div class="hero_content">
+          <img src="./imgs/vector.png" alt="" />
+          <h1>No matter where you’re going to, we’ll take you there</h1>
+          <div class="hero_options">
+            <div><span>Where to?</span></div>
+            <div><span>Travel Type</span></div>
+            <div><span> Duration</span></div>
+            <button class="btn">Submit</button>
           </div>
         </div>
+        <div class="ppl">
+          <img src="./imgs/ppl.png" alt="ppl" />
+          <p>2,500 people booked Tommorowland Event in last 24 hours</p>
+        </div>
       </section>
-      <!-- destionation section -->
-      <section class="destination">
+      <!-- section offer -->
+      <div class="logos">
+        <img src="./imgs/logo1.png" alt="logo" />
+        <img src="./imgs/logo1.png" alt="logo" />
+        <img src="./imgs/logo1.png" alt="logo" />
+        <img src="./imgs/logo1.png" alt="logo" />
+        <img src="./imgs/logo1.png" alt="logo" />
+      </div>
+      <div class="body_container">
+        <section class="offer">
+          <div class="offer_service">
+            <h5 class="subtitle">Category</h5>
+            <h2>We Offer Best Services</h2>
+            <div class="cards">
+              <div class="single_card">
+                <img src="./imgs/travelling.png" alt="travelling" />
+                <h2 style="font-size: 2rem">Best Flights Options</h2>
+                <p>
+                  sunt qui repellat saepe quo velit aperiam id aliquam placeat.
+                </p>
+              </div>
+              <div class="single_card">
+                <img src="./imgs/travelling.png" alt="travelling" />
+                <h2 style="font-size: 2rem">Best Flights Options</h2>
+                <p>
+                  sunt qui repellat saepe quo velit aperiam id aliquam placeat.
+                </p>
+              </div>
+              <div class="single_card">
+                <img src="./imgs/travelling.png" alt="travelling" />
+                <h2 style="font-size: 2rem">Best Flights Options</h2>
+                <p>
+                  sunt qui repellat saepe quo velit aperiam id aliquam placeat.
+                </p>
+              </div>
+              <div class="single_card">
+                <img src="./imgs/travelling.png" alt="travelling" />
+                <h2 style="font-size: 2rem">Best Flights Options</h2>
+                <p>
+                  sunt qui repellat saepe quo velit aperiam id aliquam placeat.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- destionation section -->
+        <section class="destination">
+          <div>
+            <img class="img1" src="./imgs/image 50.png" alt="img" />
+            <img
+              class="img2"
+              src="https://s3-alpha-sig.figma.com/img/0c26/0b67/6afee383b3f47747a29e430b0f1d0b35?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=lDt4K-QS6jHexixak7RMIK50CPZGZa~oIuMTo31v7Qk1szFdNDnEhLYLPwvr9wQBWDqSvaoN9GkG1~ohQnXriAIhcKpK050yVUPzdxTgtOo8RKnASUZQMZj-G3fr3POzeNPWOR1lkWfniz0rPY4ZaAOQ-32ElksNEq0bQGsg9SQKYFBziyy81vrkhMzRfDWS8atiLWP21L99Nc6eKVTFYZ4RuKHLg5e5cv7TwhyEdllYvyteLXnEufK0LrYjTuRsierG~T0J0wUAEBQL3AGmQsdKHACRGqQXIBm0Z5Nk4I2ng0VTlKnnwfESBGbaS3FLuZri5RQyasvpnT-Py84A8A__"
+              alt="small img"
+            />
+            <img src="./imgs/paris1.jpg" alt="paris" class="img3" />
+            <img src="./imgs/paris2.jpg" alt="paris" class="img4" />
+          </div>
+          <div class="destination_content">
+            <h5 class="subtitle">TRIP SPECIALS</h5>
+            <h2>
+              Our Romantic Tropical <br />
+              Destinations
+            </h2>
+            <p class="destination_description">
+              Et labore harum non nobis ipsum eum molestias mollitia et corporis
+              praesentium a laudantium internos. Non quis eius quo eligendi
+              corrupti et fugiat nulla qui soluta recusandae in maxime quasi aut
+              ducimus illum aut optio quibusdam!
+            </p>
+            <button class="btn" style="margin-top: 3.1rem">
+              View Packages
+            </button>
+          </div>
+        </section>
+        <!-- booking section -->
+        <section class="booking">
+          <div class="booking_content">
+            <h5 class="subtitle">Fast & Easy</h5>
+            <h2>
+              Get Your Favourite <br />
+              Resort Bookings
+            </h2>
+            <div class="checking_boxes">
+              <div class="box_item">
+                <div
+                  style="
+                    width: 48px;
+                    height: 48px;
+                    border-radius: 13px;
+                    background: #f0bb1f;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                  "
+                >
+                  <img src="./imgs/checkbox1.png" alt="" />
+                </div>
+                <div>
+                  <h5
+                    style="color: #5e6282; font-weight: 700; font-size: 1.6rem"
+                  >
+                    Choose Destination
+                  </h5>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Urna, tortor tempus.
+                  </p>
+                </div>
+              </div>
+
+              <div class="box_item">
+                <div
+                  style="
+                    width: 48px;
+                    height: 48px;
+                    border-radius: 13px;
+                    background: #f0bb1f;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                  "
+                >
+                  <img src="./imgs/checkbox1.png" alt="" />
+                </div>
+                <div>
+                  <h5
+                    style="color: #5e6282; font-weight: 700; font-size: 1.6rem"
+                  >
+                    Choose Destination
+                  </h5>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Urna, tortor tempus.
+                  </p>
+                </div>
+              </div>
+              <div class="box_item">
+                <div
+                  style="
+                    width: 48px;
+                    height: 48px;
+                    border-radius: 13px;
+                    background: #f0bb1f;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                  "
+                >
+                  <img src="./imgs/checkbox1.png" alt="" />
+                </div>
+                <div>
+                  <h5
+                    style="color: #5e6282; font-weight: 700; font-size: 1.6rem"
+                  >
+                    Choose Destination
+                  </h5>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Urna, tortor tempus.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="booking_card">
+            <div class="blur_container"></div>
+            <div class="airplane">
+              <img src="./imgs/airplane.svg" alt="airplane" />
+            </div>
+            <div class="booking_img_card">
+              <img src="./imgs/flight-img.png" alt="flight_img" />
+              <div class="booking_card_body">
+                <h3>Trip to Hawai</h3>
+                <div class="booking_card_date">
+                  <p>14-29 June</p>
+                  <p class="border"></p>
+                  <p>by JR Martinax</p>
+                </div>
+                <div class="booking_card_logos">
+                  <div><img src="./imgs/leaf.png" alt="img" /></div>
+                  <div><img src="./imgs/book.png" alt="img" /></div>
+                  <div><img src="./imgs/send.png" alt="img" /></div>
+                </div>
+                <div class="viewed_ppl">
+                  <div>
+                    <img src="./imgs/building.png" alt="building" />
+                    <p>60 people are interested</p>
+                  </div>
+
+                  <img src="./imgs/like.png" alt="like" />
+                </div>
+              </div>
+            </div>
+            <div class="background_plus">
+              <img src="./imgs/backgroundplus.png" alt="plus_img" />
+            </div>
+            <div class="ongoing_card">
+              <img src="./imgs/small-card.png" alt="small-card" />
+              <div>
+                <p>Ongoing</p>
+                <h5>Trip to rome</h5>
+                <div class="progress_container">
+                  <p><span>40%</span> completed</p>
+                  <div class="progress">
+                    <div class="progress_bar"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <section class="banner">
         <div>
-          <img class="img1" src="./imgs/image 50.png" alt="img">
-          <img class="img2"
-            src="https://s3-alpha-sig.figma.com/img/0c26/0b67/6afee383b3f47747a29e430b0f1d0b35?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=lDt4K-QS6jHexixak7RMIK50CPZGZa~oIuMTo31v7Qk1szFdNDnEhLYLPwvr9wQBWDqSvaoN9GkG1~ohQnXriAIhcKpK050yVUPzdxTgtOo8RKnASUZQMZj-G3fr3POzeNPWOR1lkWfniz0rPY4ZaAOQ-32ElksNEq0bQGsg9SQKYFBziyy81vrkhMzRfDWS8atiLWP21L99Nc6eKVTFYZ4RuKHLg5e5cv7TwhyEdllYvyteLXnEufK0LrYjTuRsierG~T0J0wUAEBQL3AGmQsdKHACRGqQXIBm0Z5Nk4I2ng0VTlKnnwfESBGbaS3FLuZri5RQyasvpnT-Py84A8A__"
-            alt="small img">
-          <img src="./imgs/paris1.jpg" alt="paris" class="img3">
-          <img src="./imgs/paris2.jpg" alt="paris" class="img4">
+          <h2>
+            Let’s Make Your <br />
+            Next Holiday Amazing
+            <span> <img src="./imgs/signature.png" alt="not found" /></span>
+          </h2>
         </div>
+      </section>
+      <section class="best-places">
+        <div class="best-place-container">
+          <div class="destination_content">
+            <h5 class="subtitle">PROMOTION</h5>
+            <h2>
+              We Provide You Best <br />
+              Europe Sightseeing Tours
+            </h2>
+            <p class="destination_description">
+              Et labore harum non nobis ipsum eum molestias mollitia et corporis
+              Europe Sightseeing Tours
+            </p>
+            <button class="btn" style="margin-top: 3.1rem">
+              View Packages
+            </button>
+          </div>
+          <img class="img1" src="./imgs/image 50.png" alt="img" />
+        </div>
+        <div class="places">
+          <div class="img">
+            <div class="badge">800$</div>
+            <img src="./imgs/london.png" alt="london" />
+          </div>
+          <div class="img">
+            <div class="badge">800$</div>
+            <img src="./imgs/london.png" alt="london" />
+          </div>
+          <div class="img">
+            <div class="badge">800$</div>
+            <img src="./imgs/london.png" alt="london" />
+          </div>
+          <div class="img">
+            <div class="badge">800$</div>
+            <img src="./imgs/london.png" alt="london" />
+          </div>
+        </div>
+      </section>
+      <section class="explore-nature">
+        <div class="explores nature-1">
+          <h5>PROMOTION</h5>
+          <div class="content">
+            <h4>Explore Nature</h4>
+            <img src="./imgs/signature1.svg" alt="signature" />
+          </div>
+          <button class="btn btn-outlined">View Packages</button>
+        </div>
+        <div class="explores nature-2">
+          <h5>PROMOTION</h5>
+          <div class="content">
+            <h4>Explore Cities</h4>
+            <img src="./imgs/signature1.svg" alt="signature" />
+          </div>
+          <button class="btn btn-outlined">View Packages</button>
+        </div>
+      </section>
+      <section class="trending">
         <div class="destination_content">
-          <h5 class="subtitle">TRIP SPECIALS</h5>
-          <h2>Our Romantic Tropical <br> Destinations</h2>
-          <p class="destination_description">Et labore harum non nobis ipsum eum molestias mollitia et corporis
-            praesentium a laudantium internos. Non
-            quis eius quo eligendi corrupti et fugiat nulla qui soluta recusandae in maxime quasi aut ducimus illum aut
-            optio quibusdam!</p>
-          <button class="btn" style="margin-top:3.1rem ;">View Packages</button>
+          <h5 class="subtitle" style="text-align: center; line-height: 7rem">
+            Trendy
+          </h5>
+          <h2 style="text-align: center">Our Trending Tour <br />Packages</h2>
         </div>
-      </section>
-      <!-- booking section -->
-      <section class="booking">
-        <div class="booking_content">
-          <h5 class="subtitle">Fast & Easy</h5>
-          <h2>Get Your Favourite <br>
-            Resort Bookings</h2>
-          <div class="checking_boxes">
-            <div class="box_item">
-              <div
-                style="width:48px;height:48px;border-radius: 13px;background: #f0bb1f;display: flex;justify-content: center;align-items: center;">
-                <img src="./imgs/checkbox1.png" alt="">
-              </div>
-              <div>
-                <h5 style="color:#5E6282 ; font-weight: 700; font-size: 1.6rem;">Choose Destination</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit. Urna, tortor tempus. </p>
-              </div>
+        <div class="trending_cards">
+          <!-- card1 -->
+          <div class="trending_single_card">
+            <div class="trending_card_img">
+              <img src="./imgs/swiss.png" alt="swiss" />
+              <img src="./imgs/swiss-logo.png" alt="logo" />
             </div>
-
-            <div class="box_item">
-              <div
-                style="width:48px;height:48px;border-radius: 13px;background: #f0bb1f;display: flex;justify-content: center;align-items: center;">
-                <img src="./imgs/checkbox1.png" alt="">
-              </div>
-              <div>
-                <h5 style="color:#5E6282 ; font-weight: 700; font-size: 1.6rem;">Choose Destination</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit. Urna, tortor tempus. </p>
-              </div>
-            </div>
-            <div class="box_item">
-              <div
-                style="width:48px;height:48px;border-radius: 13px;background: #f0bb1f;display: flex;justify-content: center;align-items: center;">
-                <img src="./imgs/checkbox1.png" alt="">
-              </div>
-              <div>
-                <h5 style="color:#5E6282 ; font-weight: 700; font-size: 1.6rem;">Choose Destination</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit. Urna, tortor tempus. </p>
-              </div>
-            </div>
-
-          </div>
-        </div>
-        <div class="booking_card">
-          <div class="blur_container"></div>
-          <div class="airplane"><img src="./imgs/airplane.svg" alt="airplane"></div>
-          <div class="booking_img_card"> <img src="./imgs/flight-img.png" alt="flight_img">
-            <div class="booking_card_body">
-              <h3>Trip to Hawai</h3>
-              <div class="booking_card_date">
-                <p>14-29 June</p>
-                <p class="border"></p>
-                <p>by JR Martinax</p>
-              </div>
-              <div class="booking_card_logos">
-                <div><img src="./imgs/leaf.png" alt="img"></div>
-                <div><img src="./imgs/book.png" alt="img"></div>
-                <div><img src="./imgs/send.png" alt="img"></div>
-              </div>
-              <div class="viewed_ppl">
-                <div> <img src="./imgs/building.png" alt="building">
-                  <p> 60 people are interested </p>
+            <div class="trending_card_body">
+              <div class="trending_card_statistics">
+                <div>
+                  <img src="./imgs/calendar.png" alt="avatar" />
+                  <span>8 Days</span>
                 </div>
-
-                <img src="./imgs/like.png" alt="like">
-              </div>
-            </div>
-          </div>
-          <div class="background_plus"><img src="./imgs/backgroundplus.png" alt="plus_img"></div>
-          <div class="ongoing_card">
-            <img src="./imgs/small-card.png" alt="small-card">
-            <div>
-              <p>Ongoing</p>
-              <h5>Trip to rome</h5>
-              <div class="progress_container">
-                <p><span>40%</span> completed</p>
-                <div class="progress">
-                  <div class="progress_bar"></div>
+                <div>
+                  <img src="./imgs/avatar.png" alt="avatar" />
+                  <span>25 People Going</span>
                 </div>
               </div>
+              <div class="trending_cards_stars">
+                <h5>Switzerland</h5>
+                <p>
+                  <img src="./imgs/stars.png" alt="stars" />
+                  <img src="./imgs/stars.png" alt="stars" />
+                  <img src="./imgs/stars.png" alt="stars" />
+                  <img src="./imgs/stars.png" alt="stars" />
+                  <img src="./imgs/stars.png" alt="stars" />
+                </p>
+              </div>
+              <div class="trending_cards_location">
+                <img src="./imgs/location.png" alt="location" />
+                <span>Europe</span>
+              </div>
+              <div class="trending_cards_discount">
+                <p class="trending_discounted_price">1,000 $</p>
+                <p class="trending_original_price">1,200 $</p>
+              </div>
+              <div class="trending_card_description">
+                Nam exercitationem commodi et ducimus quia in dolore animi sit
+                mollitia amet id quod eligendi. Et labore harum non nobis ipsum
+                eum molestias mollitia et corporis praesentium a laudantium
+                internos.
+              </div>
+              <button
+                class="btn"
+                style="box-shadow: 0px 15.28px 26.74px 0px #df695126"
+              >
+                Explore Now
+              </button>
+            </div>
+          </div>
+          <!-- card2 -->
+          <div class="trending_single_card">
+            <div class="trending_card_img">
+              <img src="./imgs/swiss.png" alt="swiss" />
+              <img src="./imgs/swiss-logo.png" alt="logo" />
+            </div>
+            <div class="trending_card_body">
+              <div class="trending_card_statistics">
+                <div>
+                  <img src="./imgs/calendar.png" alt="avatar" />
+                  <span>8 Days</span>
+                </div>
+                <div>
+                  <img src="./imgs/avatar.png" alt="avatar" />
+                  <span>25 People Going</span>
+                </div>
+              </div>
+              <div class="trending_cards_stars">
+                <h5>Switzerland</h5>
+                <p>
+                  <img src="./imgs/stars.png" alt="stars" />
+                  <img src="./imgs/stars.png" alt="stars" />
+                  <img src="./imgs/stars.png" alt="stars" />
+                  <img src="./imgs/stars.png" alt="stars" />
+                  <img src="./imgs/stars.png" alt="stars" />
+                </p>
+              </div>
+              <div class="trending_cards_location">
+                <img src="./imgs/location.png" alt="location" />
+                <span>Europe</span>
+              </div>
+              <div class="trending_cards_discount">
+                <p class="trending_discounted_price">1,000 $</p>
+                <p class="trending_original_price">1,200 $</p>
+              </div>
+              <div class="trending_card_description">
+                Nam exercitationem commodi et ducimus quia in dolore animi sit
+                mollitia amet id quod eligendi. Et labore harum non nobis ipsum
+                eum molestias mollitia et corporis praesentium a laudantium
+                internos.
+              </div>
+              <button
+                class="btn"
+                style="box-shadow: 0px 15.28px 26.74px 0px #df695126"
+              >
+                Explore Now
+              </button>
+            </div>
+          </div>
+          <!-- card3 -->
+          <div class="trending_single_card">
+            <div class="trending_card_img">
+              <img src="./imgs/swiss.png" alt="swiss" />
+              <img src="./imgs/swiss-logo.png" alt="logo" />
+            </div>
+            <div class="trending_card_body">
+              <div class="trending_card_statistics">
+                <div>
+                  <img src="./imgs/calendar.png" alt="avatar" />
+                  <span>8 Days</span>
+                </div>
+                <div>
+                  <img src="./imgs/avatar.png" alt="avatar" />
+                  <span>25 People Going</span>
+                </div>
+              </div>
+              <div class="trending_cards_stars">
+                <h5>Switzerland</h5>
+                <p>
+                  <img src="./imgs/stars.png" alt="stars" />
+                  <img src="./imgs/stars.png" alt="stars" />
+                  <img src="./imgs/stars.png" alt="stars" />
+                  <img src="./imgs/stars.png" alt="stars" />
+                  <img src="./imgs/stars.png" alt="stars" />
+                </p>
+              </div>
+              <div class="trending_cards_location">
+                <img src="./imgs/location.png" alt="location" />
+                <span>Europe</span>
+              </div>
+              <div class="trending_cards_discount">
+                <p class="trending_discounted_price">1,000 $</p>
+                <p class="trending_original_price">1,200 $</p>
+              </div>
+              <div class="trending_card_description">
+                Nam exercitationem commodi et ducimus quia in dolore animi sit
+                mollitia amet id quod eligendi. Et labore harum non nobis ipsum
+                eum molestias mollitia et corporis praesentium a laudantium
+                internos.
+              </div>
+              <button
+                class="btn"
+                style="box-shadow: 0px 15.28px 26.74px 0px #df695126"
+              >
+                Explore Now
+              </button>
             </div>
           </div>
         </div>
       </section>
-    </div>
-    <section class="banner">
+      <section class="testimonials_container">
+        <div class="destination_content">
+          <h5 class="subtitle" style="text-align: center; line-height: 7rem">
+            PROMOTION
+          </h5>
+          <h2 style="text-align: center">
+            See What Our Clients Say <br />
+            About Us
+          </h2>
+        </div>
+        <div class="testiomonials">
+          <div class="testimonial_box">
+            <!--  -->
+            <div class="single_testimonial">
+              <img
+                src="./imgs/bg-explore.png"
+                alt="profiel"
+                class="testimonials_profile"
+              />
 
-      <div>
-        <h2>Let’s Make Your <br>
-          Next Holiday Amazing <span> <img src="./imgs/signature.png" alt="not found"></span></h2>
-      </div>
+              <p>
+                <b>1</b> Vel officiis dolor ea illo aut eligendi ullam non
+                laudantium magnam et recusandae molestiae sit iure unde aut
+                voluptate quaerat. Id sunt provident quo possimus impedit vel
+                doloremque obcaecati qui ullam consectetur et ipsum omnis.
+              </p>
+              <h5>Designer</h5>
+            </div>
+            <div class="single_testimonial">
+              <img
+                src="./imgs/bg-explore.png"
+                alt="profiel"
+                class="testimonials_profile"
+              />
 
+              <p>
+                <b>2</b>
+                Vel officiis dolor ea illo aut eligendi ullam non laudantium
+                magnam et recusandae molestiae sit iure unde aut voluptate
+                quaerat. Id sunt provident quo possimus impedit vel doloremque
+                obcaecati qui ullam consectetur et ipsum omnis.
+              </p>
+              <h5>Designer</h5>
+            </div>
+            <div class="single_testimonial">
+              <img
+                src="./imgs/bg-explore.png"
+                alt="profiel"
+                class="testimonials_profile"
+              />
 
+              <p>
+                <b>3</b>
+                Vel officiis dolor ea illo aut eligendi ullam non laudantium
+                magnam et recusandae molestiae sit iure unde aut voluptate
+                quaerat. Id sunt provident quo possimus impedit vel doloremque
+                obcaecati qui ullam consectetur et ipsum omnis.
+              </p>
+              <h5>Designer</h5>
+            </div>
+            <div class="single_testimonial">
+              <img
+                src="./imgs/bg-explore.png"
+                alt="profiel"
+                class="testimonials_profile"
+              />
 
-    </section>
-  </main>
-</body>
+              <p>
+                <b>4</b>
+                Vel officiis dolor ea illo aut eligendi ullam non laudantium
+                magnam et recusandae molestiae sit iure unde aut voluptate
+                quaerat. Id sunt provident quo possimus impedit vel doloremque
+                obcaecati qui ullam consectetur et ipsum omnis.
+              </p>
+              <h5>Designer</h5>
+            </div>
+            <!--  -->
+          </div>
+          <div class="back-arrow arrow">
+            <img src="./imgs/arrow.svg" alt="arrow" />
+          </div>
+          <div class="forward-arrow arrow">
+            <img src="./imgs/arrow.svg" alt="arrow" />
+          </div>
+          <div class="carousel_slider">
+            <div class="active"></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script>
+      const testimonials = document.querySelector('.testimonial_box');
+      const backBtn = document.querySelector('.back-arrow');
+      const forwardBtn = document.querySelector('.forward-arrow');
+      const slides = document.querySelectorAll('.single_testimonial');
+      let index = 0;
 
+      forwardBtn.addEventListener('click', () => {
+        index = index < slides.length - 1 ? index + 1 : 0;
+        testimonials.style.transform = `translateX(${-index * 500}px)`;
+      });
+      backBtn.addEventListener('click', () => {
+        index = index > 0 ? index - 1 : slides.length - 1;
+        console.log(index);
+        testimonials.style.transform = `translateX(${-index * 500}px)`;
+      });
+    </script>
+  </body>
 </html>
