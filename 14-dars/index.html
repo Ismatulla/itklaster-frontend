@@ -488,84 +488,88 @@
             About Us
           </h2>
         </div>
-        <div class="testiomonials">
-          <div class="testimonial_box">
-            <!--  -->
-            <div class="single_testimonial">
-              <img
-                src="./imgs/bg-explore.png"
-                alt="profiel"
-                class="testimonials_profile"
-              />
+        <div class="testimonial_container">
+          <div class="testiomonials">
+            <div class="testimonial_box">
+              <!--  -->
+              <div class="single_testimonial">
+                <img
+                  src="./imgs/bg-explore.png"
+                  alt="profiel"
+                  class="testimonials_profile"
+                />
 
-              <p>
-                <b>1</b> Vel officiis dolor ea illo aut eligendi ullam non
-                laudantium magnam et recusandae molestiae sit iure unde aut
-                voluptate quaerat. Id sunt provident quo possimus impedit vel
-                doloremque obcaecati qui ullam consectetur et ipsum omnis.
-              </p>
-              <h5>Designer</h5>
-            </div>
-            <div class="single_testimonial">
-              <img
-                src="./imgs/bg-explore.png"
-                alt="profiel"
-                class="testimonials_profile"
-              />
+                <p>
+                  <b>1</b> Vel officiis dolor ea illo aut eligendi ullam non
+                  laudantium magnam et recusandae molestiae sit iure unde aut
+                  voluptate quaerat. Id sunt provident quo possimus impedit vel
+                  doloremque obcaecati qui ullam consectetur et ipsum omnis.
+                </p>
+                <h5>Designer</h5>
+              </div>
+              <div class="single_testimonial">
+                <img
+                  src="./imgs/bg-explore.png"
+                  alt="profiel"
+                  class="testimonials_profile"
+                />
 
-              <p>
-                <b>2</b>
-                Vel officiis dolor ea illo aut eligendi ullam non laudantium
-                magnam et recusandae molestiae sit iure unde aut voluptate
-                quaerat. Id sunt provident quo possimus impedit vel doloremque
-                obcaecati qui ullam consectetur et ipsum omnis.
-              </p>
-              <h5>Designer</h5>
-            </div>
-            <div class="single_testimonial">
-              <img
-                src="./imgs/bg-explore.png"
-                alt="profiel"
-                class="testimonials_profile"
-              />
+                <p>
+                  <b>2</b>
+                  Vel officiis dolor ea illo aut eligendi ullam non laudantium
+                  magnam et recusandae molestiae sit iure unde aut voluptate
+                  quaerat. Id sunt provident quo possimus impedit vel doloremque
+                  obcaecati qui ullam consectetur et ipsum omnis.
+                </p>
+                <h5>Designer</h5>
+              </div>
+              <div class="single_testimonial">
+                <img
+                  src="./imgs/bg-explore.png"
+                  alt="profiel"
+                  class="testimonials_profile"
+                />
 
-              <p>
-                <b>3</b>
-                Vel officiis dolor ea illo aut eligendi ullam non laudantium
-                magnam et recusandae molestiae sit iure unde aut voluptate
-                quaerat. Id sunt provident quo possimus impedit vel doloremque
-                obcaecati qui ullam consectetur et ipsum omnis.
-              </p>
-              <h5>Designer</h5>
-            </div>
-            <div class="single_testimonial">
-              <img
-                src="./imgs/bg-explore.png"
-                alt="profiel"
-                class="testimonials_profile"
-              />
+                <p>
+                  <b>3</b>
+                  Vel officiis dolor ea illo aut eligendi ullam non laudantium
+                  magnam et recusandae molestiae sit iure unde aut voluptate
+                  quaerat. Id sunt provident quo possimus impedit vel doloremque
+                  obcaecati qui ullam consectetur et ipsum omnis.
+                </p>
+                <h5>Designer</h5>
+              </div>
+              <div class="single_testimonial">
+                <img
+                  src="./imgs/bg-explore.png"
+                  alt="profiel"
+                  class="testimonials_profile"
+                />
 
-              <p>
-                <b>4</b>
-                Vel officiis dolor ea illo aut eligendi ullam non laudantium
-                magnam et recusandae molestiae sit iure unde aut voluptate
-                quaerat. Id sunt provident quo possimus impedit vel doloremque
-                obcaecati qui ullam consectetur et ipsum omnis.
-              </p>
-              <h5>Designer</h5>
+                <p>
+                  <b>4</b>
+                  Vel officiis dolor ea illo aut eligendi ullam non laudantium
+                  magnam et recusandae molestiae sit iure unde aut voluptate
+                  quaerat. Id sunt provident quo possimus impedit vel doloremque
+                  obcaecati qui ullam consectetur et ipsum omnis.
+                </p>
+                <h5>Designer</h5>
+              </div>
+              <!--  -->
             </div>
-            <!--  -->
+
+            <div class="carousel_slider">
+              <div class="dot active"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+            </div>
           </div>
           <div class="back-arrow arrow">
             <img src="./imgs/arrow.svg" alt="arrow" />
           </div>
           <div class="forward-arrow arrow">
             <img src="./imgs/arrow.svg" alt="arrow" />
-          </div>
-          <div class="carousel_slider">
-            <div class="active"></div>
-            <div></div>
-            <div></div>
           </div>
         </div>
       </section>
@@ -575,16 +579,21 @@
       const backBtn = document.querySelector('.back-arrow');
       const forwardBtn = document.querySelector('.forward-arrow');
       const slides = document.querySelectorAll('.single_testimonial');
+      const dots = document.querySelectorAll('.dot');
       let index = 0;
-
+      console.log(dots);
       forwardBtn.addEventListener('click', () => {
         index = index < slides.length - 1 ? index + 1 : 0;
         testimonials.style.transform = `translateX(${-index * 500}px)`;
+        dots.forEach(dot => dot.classList.remove('active'));
+        dots[index].classList.add('active');
       });
       backBtn.addEventListener('click', () => {
         index = index > 0 ? index - 1 : slides.length - 1;
-        console.log(index);
         testimonials.style.transform = `translateX(${-index * 500}px)`;
+
+        dots.forEach(dot => dot.classList.remove('active'));
+        dots[index].classList.add('active');
       });
     </script>
   </body>
