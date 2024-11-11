@@ -574,6 +574,46 @@
         </div>
       </section>
     </main>
+    <footer class="footer_container">
+      <div class="footer_box">
+        <div class="footer-infos">
+          <div class="footer_info1 info">
+            <img src="./imgs/footer-logo.svg" alt="footer contact" />
+            <p>Travel helps companies .</p>
+            <p>manage payments easily</p>
+            <img src="./imgs/footer-contact-infos.svg" alt="footer contact" />
+          </div>
+          <div class="footer_info2 info">
+            <h5>Company</h5>
+            <ul>
+              <li>About Us</li>
+              <li>Careers</li>
+              <li>Blog</li>
+              <li>Pricing</li>
+            </ul>
+          </div>
+          <div class="footer_info2 info">
+            <h5>Destinations</h5>
+            <ul>
+              <li>Maldives</li>
+              <li>Los Angeles</li>
+              <li>Las Vegas</li>
+              <li>Torranto</li>
+            </ul>
+          </div>
+          <div class="footer_info3 info">
+            <h5>Join Our Newsletter</h5>
+            <div class="footer_email">
+              <input type="text" placeholder="Your email address" />
+              <button class="btn">Subscribe</button>
+            </div>
+
+            <p>* Will send you weekly updates for your better tour packages.</p>
+          </div>
+        </div>
+      </div>
+      <img src="./imgs/mountain.svg" alt="mouuntain" class="footer_mountain" />
+    </footer>
     <script>
       const testimonials = document.querySelector('.testimonial_box');
       const backBtn = document.querySelector('.back-arrow');
@@ -581,7 +621,7 @@
       const slides = document.querySelectorAll('.single_testimonial');
       const dots = document.querySelectorAll('.dot');
       let index = 0;
-      console.log(dots);
+
       forwardBtn.addEventListener('click', () => {
         index = index < slides.length - 1 ? index + 1 : 0;
         testimonials.style.transform = `translateX(${-index * 500}px)`;

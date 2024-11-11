@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 * {
   padding: 0;
@@ -731,4 +731,70 @@ h2 img {
 }
 .carousel_slider div.active {
   background: #df6951;
+}
+.footer_container {
+  background: '#fff';
+  position: relative;
+}
+.footer_box {
+  padding: 5.4rem 15.2rem 2.4rem 17.6rem;
+}
+.footer-infos {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-infos .info {
+  display: flex;
+  flex-direction: column;
+}
+.footer-infos .info p {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  font-family: 'Manrope', sans-serif;
+  margin-top: 0;
+}
+.footer_info1 {
+  color: #757095;
+  margin-top: -2rem;
+}
+.footer_info1 img:nth-child(4) {
+  margin-top: 2rem;
+}
+.footer_info2 h5,
+.footer_info3 h5 {
+  font-weight: 700;
+  font-size: 2.1rem;
+  color: #181433;
+  margin-bottom: 2.4rem;
+  font-family: 'Manrope', sans-serif;
+}
+.footer_info2 ul {
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+.footer_info2 ul li {
+  list-style-type: none;
+  font-family: 'Manrope', sans-serif;
+  line-height: 3.4rem;
+}
+.footer_email {
+  display: flex;
+  margin-bottom: 2rem;
+}
+.footer_email input {
+  background: #eeeeff;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #181433;
+  padding: 1.5rem;
+  outline: none;
+  border: none;
+  margin-right: -1rem;
+}
+.footer_mountain {
+  position: absolute;
+  right: 0;
+  top: 0;
 }
