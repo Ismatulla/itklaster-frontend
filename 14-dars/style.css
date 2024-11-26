@@ -20,7 +20,6 @@ body {
   background-size: cover;
   background-blend-mode: darken;
   height: 97.6rem;
-  padding: 0 20rem;
 }
 .navbar {
   padding-top: 6.3rem;
@@ -31,7 +30,7 @@ body {
 .navbar ul {
   display: flex;
   list-style: none;
-  gap: 5rem;
+
   color: #fff;
   font-size: 1.8rem;
 }
@@ -79,12 +78,10 @@ select ::after {
   color: black;
 }
 .hero_content {
-  margin-top: 16.7rem;
   max-width: 84.4rem;
 }
 .hero_content h1 {
   color: #fff;
-  font-size: 5.8rem;
   font-weight: 700;
   line-height: 1.16;
   max-width: 63.1rem;

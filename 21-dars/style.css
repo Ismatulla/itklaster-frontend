@@ -1,0 +1,44 @@
+/* Extra Small (Mobile)=>min-width:360px max-width: 575px
+?Small (Phones)=> min-width: 576px
+?Medium (Tablets)=> min-width: 768px
+?Large (Desktops)=> min-width: 992px
+?Extra Large (Large Desktops): min-width: 1200px
+?XX-Large (4K and ultra-wide)=> min-width: 1400px */
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.box {
+  width: 400px;
+  height: 400px;
+  background: lightblue;
+}
+
+@media (min-width: 360px) {
+  .box {
+    background: yellow;
+  }
+}
+@media (min-width: 576px) {
+  .box {
+    background: green;
+  }
+}
+@media (min-width: 768px) {
+  .box {
+    background: black;
+  }
+}
+@media (min-width: 992px) {
+  .box {
+    background: rgb(181, 99, 99);
+  }
+}
+@media (min-width: 768px) and (max-width: 800px) {
+  .box {
+    background: orange;
+  }
+}
